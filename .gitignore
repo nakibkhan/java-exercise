@@ -40,3 +40,4 @@ bin/
 /captures
 /gradle.properties
 coinbase-java/src/test/**/_*.java
+*.hprof

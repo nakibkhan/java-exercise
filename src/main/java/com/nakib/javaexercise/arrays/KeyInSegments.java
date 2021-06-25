@@ -1,6 +1,6 @@
 package com.nakib.javaexercise.arrays;
 
-class GFG {
+class KeyInSegments {
     static boolean findxinkindowSize(int[] arr, int key, int size)
     {
         boolean result = false;

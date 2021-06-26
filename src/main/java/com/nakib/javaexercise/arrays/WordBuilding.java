@@ -76,24 +76,32 @@ public class WordBuilding {
         int lineLength1_2 = 20;
         List<String> input = new ArrayList<String>();
 
-        List<String> resultsWords1 = process(words1, lineLength1_1);
+        List<String> resultsWords1 = process(words1, lineLength1_2);
         System.out.println(resultsWords1);
 
-//        String[] words2 = {"Hello"};
-//        int lineLength2_1 = 5;
-//
-//        String[] words3 = {"Hello", "world"};
-//        int lineLength3_1 = 5;
-//
-//        String[] words4 = {"Well", "Hello", "world"};
-//        int lineLength4_1 = 5;
-//
-//        String[] words5 = {"Hello", "HelloWorld", "Hello", "Hello"};
-//        int lineLength5_1 = 20;
+        String[] words2 = {"Hello"};
+        int lineLength2_1 = 5;
+        List<String> resultWords2 = process(words2, lineLength2_1);
+        System.out.println(resultWords2);
+
+        String[] words3 = {"Hello", "world"};
+        int lineLength3_1 = 5;
+        List<String> resultWords3 = process(words3, lineLength3_1);
+        System.out.println(resultWords3);
+
+
+        String[] words4 = {"Well", "Hello", "world"};
+        int lineLength4_1 = 5;
+        List<String> resultWords4 = process(words4, lineLength4_1);
+        System.out.println(resultWords4);
+
+        String[] words5 = {"Hello", "HelloWorld", "Hello", "Hello"};
+        int lineLength5_1 = 20;
+        List<String> resultWords5 = process(words5, lineLength5_1);
+        System.out.println(resultWords5);
 
     }
 
-    //   List<String> result = new ArrayList<String>();
     static List<String> process(String[] words, int size)  {
         List<String> result = new ArrayList<>();
 

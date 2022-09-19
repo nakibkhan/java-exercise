@@ -1,7 +1,7 @@
 package com.nakib.javaexercise.arrays;
 
 class KeyInSegments {
-    static boolean findxinkindowSize(int[] arr, int key, int size)
+    static boolean findXinkindowSize(int[] arr, int key, int size)
     {
         boolean result = false;
 
@@ -38,7 +38,7 @@ class KeyInSegments {
         int arr[] = new int[] { 3, 5, 2, 4,  9,  3,
                 1, 7, 3, 11, 12, 3 };
         int key = 3, size = 3;
-        if (findxinkindowSize(arr, key, size))
+        if (findXinkindowSize(arr, key, size))
             System.out.println("Yes");
         else
             System.out.println("No");

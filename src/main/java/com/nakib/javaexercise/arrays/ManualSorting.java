@@ -30,9 +30,4 @@ public class ManualSorting {
 
         return arr;
     }
-
-    public static void main(String [] args) {
-        int[] arr = {3, 2, 4, 1, -2, 7, 9, 10, 10};
-        System.out.println(Arrays.toString(ascending(arr)));
-    }
 }

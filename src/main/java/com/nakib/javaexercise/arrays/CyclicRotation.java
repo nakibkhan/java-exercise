@@ -27,7 +27,7 @@ class CyclicRotation {
         return num;
     }
 
-    public static void main(String args[])
+    public static void main(    String args[])
     {
         int arr[] = new int[] { 3, 5, 21, 42,  94,  35,
                 1, 14, 32, 11, 121, 30 };

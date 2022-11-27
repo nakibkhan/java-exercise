@@ -1,8 +1,8 @@
-package com.nakib.javaexercise.arrays;
+package com.nakib.javaexercise.arrays.sorting;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class QuickSorting {
     public static int[] quickSort(int[] arr, int begin, int end) {
         if(begin < end) {
             int pivotpoint = getPivot(arr, begin, end);

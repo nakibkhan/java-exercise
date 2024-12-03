@@ -41,3 +41,5 @@ bin/
 /gradle.properties
 coinbase-java/src/test/**/_*.java
 *.hprof
+
+1

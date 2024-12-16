@@ -8,15 +8,28 @@ class SecondHigestNum {
             return -1;
         }
 
-        Arrays.sort(num);
-        System.out.println(Arrays.toString(num));
-        return num[num.length -2];
+        int highest = 0;
+        int secondHighest = 0;
+
+        for (int j : num) {
+            if (j > highest) {
+                int temp = highest;
+                highest = j;
+                secondHighest = temp;
+            }
+
+            if(j > secondHighest && j < highest )   {
+                secondHighest = j;
+            }
+        }
+
+        return secondHighest;
     }
 
     public static void main(String args[])
     {
-        int arr[] = new int[] { 3, 5, 21, 42,  94,  35,
-                1, 14, 32, 11, 121, 30 };
+        int arr[] = new int[] { 3, 5, 21, 42, 94, 35,
+                1, 14, 32, 11, 121, 122 };
         System.out.println(findSecondHighest(arr));
     }
 }

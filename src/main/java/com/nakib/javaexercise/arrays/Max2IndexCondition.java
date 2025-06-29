@@ -15,7 +15,6 @@ public class Max2IndexCondition {
     }
 
     public static void main(String [] args) {
-        int [] arr = {34 , 8, 10, 3, 2 , 80, 30, 33, 1};
         int [] arr2 = {6, 5, 4, 3, 2, 1};
 
         System.out.println(process(arr2));
